@@ -1,0 +1,64 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-size: cover;
+  }
+  p {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+    margin: 10px;
+    width: 50%;
+  }
+
+  #container {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"),
+      url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: top right, center;
+    padding: 20px;
+    border: 2px dashed #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  img {
+    border: 3px solid #000;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #888;
+    margin: 10px;
+    max-width: 50%;
+  }
+
+  #image2 {
+    border: 10px solid #f00;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888;
+    max-width: 70%;
+  }
+
+  #image3 {
+    border-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg")
+      30 round;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888;
+    max-width: 70%;
+  }
+
+  #image4 {
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #888;
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+
+  #image5 {
+    border: 5px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888;
+    max-width: 70%;
+  }
